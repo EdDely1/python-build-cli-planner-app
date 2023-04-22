@@ -1,7 +1,7 @@
 import csv
 from src.deadlined_reminders import DeadlinedReminder
 
-def list_reminders(test_create):
+def list_reminders():
     f = open("reminders.csv", "r")
 
     with f:
